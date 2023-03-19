@@ -24,34 +24,34 @@ function Home() {
                     <a href="#promotion1" className="btn btn-circle btn-ghost">❯</a>
                 </div>
             </div> 
-            <div id="promotion1" className="carousel-item relative w-full flex flex-col items-center">
+            <div id="promotion1" className="carousel-item relative w-full flex flex-col">
+                <h1 className='text-4xl text-center font-bold md:text-6xl z-50'>Group Package Promo!
+                    <br></br>
+                    Invite your friends to living at Maxley!
+                </h1>
                 <video autoPlay muted loop className='w-full absolute w-full h-full'>
                     <source src={require("./images/groupPromo.MP4")} type="video/mp4" />
                 </video>
+                
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     
                         
                     <a href="#home" className="btn btn-circle btn-ghost">❮</a> 
-                    <div className='flex flex-col absolute h-full w-full justify-center items-center -z-50'>
-                        
-                        <h1 className='text-4xl text-center font-bold md:text-6xl'>Group Package Promo!
-                        <br></br>
-                        Invite your friends to living at Maxley!
-                        </h1>
-                    </div>
+                    
                     
                     
                     <a href="#promotion2" className="btn btn-circle btn-ghost">❯</a>
                 </div>
             </div> 
-            <div id="promotion2" className="carousel-item relative w-full">
+            <div id="promotion2" className="carousel-item relative w-full flex flex-col align-center">
+                <h1 className='text-4xl text-center font-bold w-full md:text-6xl z-50'>Get FREE Merchandise SUGA BTS & Doorprize Lightstick BTS for ARMY!!!</h1>
                 <video autoPlay muted loop className='w-full absolute w-full h-full'>
                     <source src={require("./images/1678638516900729.MP4")} type="video/mp4" />
                 </video>
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#promotion1" className="btn btn-circle btn-ghost">❮</a> 
                     <div className='flex flex-col absolute w-full h-full -z-50 justify-center items-center '>
-                        <h1 className='text-4xl text-center font-bold w-3/4 md:text-6xl'>Get FREE Merchandise SUGA BTS & Doorprize Lightstick BTS for ARMY!!!</h1>
+                        
                     </div>
                     
                     
@@ -96,7 +96,7 @@ function Home() {
                     <p className='text-xl'>Customer Service and Feedback: <a href='https://wa.me/+6281227762299' className='hover:underline'>+6281227762299</a></p>
                     <p className='text-xl font-bold'>Operational Hours: 09.00 - 17.00 WIB</p>
                     <br></br>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3965.7040026826317!2d106.6365915!3d-6.302568!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb52573b01af%3A0x2c7f226871efd55c!2sMaxley%20Suites!5e0!3m2!1sen!2sid!4v1678791900340!5m2!1sen!2sid" width="600" height="450" style={{'border':0}} allowFullScreen="" loading="lazy"></iframe>
+                    <a className='btn btn-primary' href="https://goo.gl/maps/SAxM51p66Yasbj2L9" style={{'border':0}}>Check our location</a>
                     <br></br>
                     
                 </div>
